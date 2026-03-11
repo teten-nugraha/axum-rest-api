@@ -18,3 +18,8 @@ tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
 tower-http = { version = "0.5", features = ["trace"] }
 uuid = { version = "1", features = ["v4"] }
 tracing-appender = "0.2"
+
+#Auth
+jsonwebtoken = "9"
+bcrypt = "0.15"
+chrono = "0.4"
